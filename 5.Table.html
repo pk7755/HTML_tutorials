@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+
+<body>
+    <table border="1px">
+        <tr>
+            <td> EmpId </td>
+            <td> EmpName </td>
+            <td> EmpSalary </td>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Mayur</td>
+            <td>48000</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Shivam</td>
+            <td>65000</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Mannu</td>
+            <td>40000</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Shikha</td>
+            <td>60000</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Pradyumna</td>
+            <td>80000</td>
+        </tr>
+        <tr>
+            <td>106</td>
+            <td>Sumit</td>
+            <td>70000</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="1px">
+        <tr>
+            <th> EmpId </th>
+            <th> EmpName </th>
+            <th> EmpSalary </th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Mayur</td>
+            <td>48000</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Shivam</td>
+            <td>65000</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Mannu</td>
+            <td>40000</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Shikha</td>
+            <td>60000</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Pradyumna</td>
+            <td>80000</td>
+        </tr>
+        <tr>
+            <td>106</td>
+            <td>Sumit</td>
+            <td>70000</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="1px" cellspacing="10px" cellpadding="5px">
+        <caption>Employee Details</caption>
+
+        <tr>
+            <th> EmpId </th>
+            <th> EmpName </th>
+            <th> EmpSalary </th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Mayur</td>
+            <td>48000</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Shivam</td>
+            <td>65000</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Mannu</td>
+            <td rowspan="2">40000</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Shikha</td>
+
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Pradyumna</td>
+            <td>80000</td>
+        </tr>
+        <tr>
+            <td>106</td>
+            <td>Sumit</td>
+            <td>70000</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total Salary</td>
+            <td>343000</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="1px" cellspacing="10px" cellpadding="5px">
+        <caption>Employee Details</caption>
+        <colgroup>
+            <col style="background-color:red ;">
+            <col style="background-color:yellow ;">
+            <col style="background-color:pink ;">
+
+        </colgroup>
+        <thead>
+            <tr>
+                <th> EmpId </th>
+                <th> EmpName </th>
+                <th> EmpSalary </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Mayur</td>
+                <td>48000</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Shivam</td>
+                <td>65000</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Mannu</td>
+                <td rowspan="2">40000</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Shikha</td>
+
+            </tr>
+            <tr>
+                <td>105</td>
+                <td>Pradyumna</td>
+                <td>80000</td>
+            </tr>
+            <tr>
+                <td>106</td>
+                <td>Sumit</td>
+                <td>70000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Salary</td>
+                <td>343000</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>

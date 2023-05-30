@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+
+<body>
+     <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" required><br><br>
+          <label for="email">Email</label>
+          <input type="email" id="email" required><br><br>
+          <label for="pass">Passward</label>
+          <input type="password" id="pass" required><br><br>
+          <p>Select your passout Year</p>
+          <Select>
+               <option>Select Your Passout year</option>
+               <option value="2023">2023</option>
+               <option value="2022">2022</option>
+               <option value="2021">2021</option>
+               <option value="2020">2020</option>
+               <option value="2019">2019</option>
+               <option value="2018">2018</option>
+               <option value="2017">2017</option>
+          </Select>
+          <p>What is Your Gender</p>
+          <input type="radio" name="gender" value="Male">Male
+          <input type="radio" name="gender" value="Female">Female
+          <input type="radio" name="gender" value="Others">Others
+          <br><br>
+          <p>What is your Favourite color</p>
+          <input type="text" list="color" placeholder="Select your fev color">
+          <datalist id="color" name="Fav_col">
+               <option name="Fav_col" value="Red"></option>
+               <option name="Fav_col" value="Yellow"></option>
+               <option name="Fav_col" value="Blue"></option>
+               <option name="Fav_col" value="Aqua"></option>
+               <option name="Fav_col" value="Pink"></option>
+          </datalist>
+          <p>Tell me about yourself</p>
+          <textarea cols="30" rows="10"></textarea>
+          <p>What is your hobbies</p>
+          <input type="checkbox" name="hobbies" value="Chess">Chess <br>
+          <input type="checkbox" name="hobbies" value="Dance">Dance <br>
+          <input type="checkbox" name="hobbies" value="playmusic">playmusic <br>
+          <input type="checkbox" name="hobbies" value="Reading novels">Reading novels <br>
+
+          <fieldset>
+               <legend>Personal Details</legend>
+               <label for="name">Name</label>
+               <input type="text" id="name" required><br><br>
+               <label for="email">Email</label>
+               <input type="email" id="email" required><br><br>
+               <label for="phone">Phone</label>
+               <input type="tel" id="Phone" required><br><br>
+          </fieldset>
+          <input type="submit" value="Submit">
+     </form>
+
+
+</body>
+
+</html>
